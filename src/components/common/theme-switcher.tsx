@@ -65,7 +65,7 @@ export const ThemeSwitcher: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="absolute bottom-0 right-12 z-10 mt-2 w-32 rounded-lg border border-neutral-200 bg-white py-2 shadow-md dark:border-neutral-700 dark:bg-neutral-900/70 text-neutral-800 dark:text-neutral-200"
+            className="absolute bottom-0 right-12 z-10 mt-2 w-32 rounded-lg border border-neutral-200 bg-white py-2 text-neutral-800 shadow-md dark:border-neutral-700 dark:bg-neutral-900/70 dark:text-neutral-200"
           >
             {themes.map((t) => (
               <button

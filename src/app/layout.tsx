@@ -3,6 +3,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { ThemeProvider } from '~/lib/providers/theme-provider'
 import { UtilsNavbar } from '~/components/navbar/utils-navbar'
+import { Navbar } from '~/components/navbar/navbar'
 
 export const metadata: Metadata = {
   title: 'Squaree',
@@ -17,8 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`relative bg-background font-body antialiased`}>
+      <body
+        className={`relative bg-background font-body text-neutral-800 antialiased dark:text-neutral-200`}
+      >
         <ThemeProvider>
+          <Navbar />
           {children}
           <UtilsNavbar />
         </ThemeProvider>
