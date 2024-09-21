@@ -46,7 +46,7 @@ export const DropdownMenu: React.FC<DropdownMenuProps> = ({ label, items }) => {
       y: -10,
       height: 0,
       width: 0,
-      transition: { duration: 0.2, delay: 0.1 },
+      transition: { duration: 0.1, delay: 0.1 },
     },
   }
 

@@ -14,6 +14,15 @@ const config: Config = {
         body: ['"Manrope"', 'sans-serif'],
       },
       colors: {
+        'dark-primary': '#242424',
+        'purple-light': '#C8A2D6',
+        'green-light': '#CFDDDB',
+        'gray-light': '#DEDFE3',
+        'yellow-main': '#F2B53C',
+        brown: {
+          light: '#DDD6CF',
+          medium: '#B1ABA6',
+        },
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
         card: {
