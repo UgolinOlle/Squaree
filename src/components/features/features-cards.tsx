@@ -24,7 +24,7 @@ export const FeatureProfileCard: React.FC<{ className?: string }> = ({
       <Link
         href="#"
         passHref
-        className="absolute left-8 top-8 cursor-pointer rounded-full bg-neutral-900 px-3 py-1 text-neutral-200 dark:bg-neutral-100 dark:text-neutral-800"
+        className="absolute left-8 top-8 cursor-pointer rounded-full bg-neutral-900 px-5 py-2 font-bold tracking-widest text-neutral-200 dark:bg-neutral-100 dark:text-neutral-800"
       >
         PROFILE
       </Link>

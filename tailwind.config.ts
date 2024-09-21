@@ -10,8 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        title: ['"DM Sans"', 'sans-serif'],
-        body: ['"Manrope"', 'sans-serif'],
+        title: ['var(--font-dm-sans)', 'sans-serif'],
+        body: ['var(--font-manrope)', 'sans-serif'],
       },
       colors: {
         'dark-primary': '#242424',

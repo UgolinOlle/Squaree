@@ -1,6 +1,8 @@
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
+
 import { Container } from '~/components/common/container'
+import { FeatureProductivity } from '~/components/features/feature-productivity'
 import { FeaturesList } from '~/components/features/features-list'
 import { LogoTestimonial } from '~/components/logo-testimonial'
 import { Button } from '~/components/ui/button'
@@ -64,6 +66,7 @@ export default function Home(): JSX.Element {
           <ArrowRight size={24} />
         </Button>
       </Container>
+      <FeatureProductivity />
     </div>
   )
 }
